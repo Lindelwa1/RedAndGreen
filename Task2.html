@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>header!</title>
+    <style> 
+    #square1{
+    	height: 300px;
+    	width:300px;
+    	border: 5px solid black;
+
+    }
+
+#square2{
+    	height: 300px;
+    	width:300px;
+    	border: 5px solid black;
+    }
+
+    </style>
+</head>
+<body>
+<div id= "square1"></div>
+<input type= "button1" onClick="myFunction()" value= "Make red"></input>
+<div id= "square2"></div>
+<input type= "button2" onClick="myButton()" value= "Make green"></input>
+    
+ <script type="text/javascript"> 
+ function myFunction(){
+ document.getElementById('square1').style.backgroundColor='red';
+ }
+function myButton(){
+ document.getElementById('square2').style.backgroundColor='green';
+}
+ </script>
+</body>
+</html>
