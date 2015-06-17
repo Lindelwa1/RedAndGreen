@@ -1,0 +1,20 @@
+(function() {
+	setbackgroundColor('mySquare','green');
+	if(document.getElementById('mySquare').backgroundColor === 'green'){
+		window.alert('success');
+	}
+	else{
+		window.alert('failure');
+	}
+
+ setBackgroundColor('mySquare','red');
+if(document.getElementById('mySquare').style.backgroundColor ==='red'){
+	window.alert('success';
+}
+	else{
+		window.alert('failure');
+	
+      }
+   
+})();
+   
