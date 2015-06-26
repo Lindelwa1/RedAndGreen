@@ -1,0 +1,4 @@
+function HelloMam () {
+	
+	return "HelloMam!";
+};
