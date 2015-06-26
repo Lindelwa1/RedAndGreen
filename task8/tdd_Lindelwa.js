@@ -1,5 +1,0 @@
- function Lindelwa(){
-   return "Lindelwa!";
- }
-
-  

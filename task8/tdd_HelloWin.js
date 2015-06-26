@@ -1,5 +1,0 @@
- function HelloWin(){
-   return "HelloWin!";
- }
-
-  
